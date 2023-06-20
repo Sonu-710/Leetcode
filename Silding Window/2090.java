@@ -1,3 +1,7 @@
+//K Radius Subarray Averages
+//Link - https://leetcode.com/problems/k-radius-subarray-averages/
+
+
 class Solution {
     public int[] getAverages(int[] nums, int k) {
         int[] arr=new int[nums.length]; 
@@ -28,3 +32,7 @@ class Solution {
         return arr;
     }
 }
+
+
+// Time Complexity - O(n)
+//Space Complexity - O(1)
